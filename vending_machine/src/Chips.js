@@ -4,6 +4,7 @@ import Message from "./Message";
 import { Link } from "react-router-dom";
 import chipsImg from "./Chips.png";
 
+
 import "./Chips.css";
 
 class Chips extends Component {
@@ -35,6 +36,7 @@ class Chips extends Component {
     ));
     return (
       <div className='Chips'>
+
         <Message>
           <h1>bags eaten: {this.state.bags.length}</h1>
           <button onClick={this.handleClick}>nom nom nom</button>
